@@ -4,7 +4,7 @@ pipeline {
         stage ("Test") {
             steps {
                 script {
-                    echo "This branch is $(env.BRANCH_NAME)"
+                    echo "This is main branch"
                 }
             }
         }
