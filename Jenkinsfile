@@ -4,7 +4,7 @@ pipeline {
         stage ("Test") {
             steps {
                 script {
-                    sh "echo 'This branch is $(BRANCH_NAME)'"
+                    echo "This is main branch"
                 }
             }
         }
